@@ -1,0 +1,14 @@
+.navbar{
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+.withBackground img{
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+
