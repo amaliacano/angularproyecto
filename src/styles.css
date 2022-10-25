@@ -64,6 +64,7 @@
     text-align: center;
     margin-bottom: 1rem;
     margin-bottom: black;
+    margin-bottom: var(--bg-color);
   }
 
 
@@ -87,12 +88,10 @@
   }
 
   
-.enlace-de-proyecto {
-  margin-bottom: var(--bottom-margin);
-  text-align: center;
-    align-items: center;
-    justify-content: center;
-}
+  .enlace-de-proyecto {
+    margin-bottom: var(10%);
+    text-align: center;
+  }
 
   
 
@@ -160,14 +159,14 @@
 
 .desplazarse-hacia-arriba {
   position: fixed;
-  right: 0.5%;
-  bottom: 50%;
+  right: 0.1%;
+  bottom: 3%;
   cursor: pointer;
 }
 
-.socicon {
-  width: 10%;
-  height: 15%;
+.up-arrow {
+  width: 3rem;
+  height: 3rem;
 }
 
 footer {
@@ -176,3 +175,5 @@ footer {
   text-align: center;
   margin: 2rem 0 0;
 }
+
+@media screen and (max-width: 720px)
